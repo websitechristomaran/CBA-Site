@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+footer{
+    
+    position: absolute;
+    top: 140%;
+    width:100%;
+    background-color: black;
+    height: 80px;
+    text-align: center;
+}
+
+.logo2{
+    
+    position: absolute;
+    font-weight: bold ;
+    font-size: 25px;
+    color: white;
+    bottom:30px;
+    left: 50px;
+    text-align: center;
+    margin:auto;
+    padding-top: 20px;            
+}
+
+.dev{
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color:whitesmoke;
+    display: inline-block;
+    margin-left:300px;
+    margin-top: 20px;
+}
+
+.icons2{
+    float: right;
+    
+    height: 60px;
+         list-style-type: none;
+         margin: 0;
+         display: flex;
+}
+
+li img {
+    padding: 1em;
+}
+
+@media screen and (max-width: 1000px){
+
+    footer {
+        position: absolute;
+        top: 600px;
+        width: 100%;
+        background-color: black;
+        height: 40px;
+        text-align: center;
+    }
+
+    .logo2 {
+        position: absolute;
+        font-weight: bold;
+        font-size: 5mm;
+        color: white;
+        bottom: 8px;
+        left: 15px;
+        text-align: center;
+        
+        padding-top: 20px;
+    }
+
+    
+    .dev {
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 7px;
+        line-height: 7px;
+        color: whitesmoke;
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 77px;
+    }
+.icons2{
+    display: none;
+
+}
+
+.dropbtn3 {
+    background-color: black;
+    width: 35px;
+    color: white;
+    font-size: 7px;
+    border: none;
+    display: inline-block;
+    margin-right: -160px;
+    margin-top: 20px;
+}
+.dropdown3 {
+  
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+}
+.dropdown-content3 {
+    
+  display: none;
+  position: absolute;
+  background-color: #252525;
+  min-width: 160px;
+  
+  z-index: 1;
+}
+
+.dropdown-content3 img {
+  list-style-type: none;
+  color: black;
+  padding: 12px 16px;
+  
+  display: block;
+}
+
+  .dropdown-content3 img:hover {background-color: rgb(43, 43, 43);}
+
+.dropdown3:hover .dropdown-content3 {display: block;}
+
+.dropdown3:hover .dropbtn3 {background-color: #2e2e31;}
+}

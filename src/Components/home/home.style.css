@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+  .img{
+    width:100%;
+    height: 916.99px;
+    
+    margin:auto;
+    background-image: url('Home/Image.png');
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+    
+.slg1{
+    color:white ;    
+font-family: Manrope;
+font-size: 77px;
+font-style: normal;
+font-weight: 800;
+line-height: 98px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+width: 540px;
+height: 294px;
+left: 900px;
+top: 205px;
+}
+
+.slg2{
+    color: white;
+    position: absolute;
+    width: 540px;
+    height: 32px;
+    left: 900px;
+    top: 500px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.btn{
+    color: white;
+    font-size: 20px;
+position:absolute;
+width: 196px;
+height: 62px;
+left: 900px;
+top: 600px;
+background: #8C30F5;
+border-radius: 8px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .img{
+        
+        margin-top: -10px; 
+        background-image:url('Home/Image.png');
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position: top;
+    }
+    
+    .slg1{
+        width: 100px;
+        display: flex;
+
+        
+        font-family: Manrope;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 2px;
+        letter-spacing: 0em;
+        text-align: left;
+        /* position: absolute; */
+        /* width: 647px; */
+        height: 70px;
+        left: 240px;
+        top: 145px;
+        word-break: break-all;
+    }
+
+    .slg2 {
+        color: white;
+        
+        position: absolute;
+        width: 119px;
+        height: 10px;
+        left: 240px;
+        top: 215px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 5px;
+        line-height: 10px;
+    }
+
+    .btn {
+        color: white;
+        font-size: 5px;
+        position: absolute;
+        width: 50px;
+        height: 20px;
+        left: 240px;
+        top: 240px;
+        background: #8C30F5;
+        border-radius: 8px;
+    }
+}
+
